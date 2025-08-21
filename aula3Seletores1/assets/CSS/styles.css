@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin-left: 30px;
+    color: initial;
+}
+
+.pai .filha {
+    color: red;
+}

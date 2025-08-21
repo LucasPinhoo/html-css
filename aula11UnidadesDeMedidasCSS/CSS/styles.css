@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+    /* font-size padrão para que o usuário possa ajustar o site 62.5% */
+    /* rem é utilizadp com multiplicação Ex: 1.6rem = 16px, 30rem = 300px */
+    /* rem é relativo a hut "html" */
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    width:  50rem; /* 500px */
+    /* vw é a largura do viewport Ex: 100vw é 100% da largura, 1vw é 1% da largura 
+    vw pra width */
+    height: 100vh;
+    /* vh é a altura do viewport Ex: 100vh é 100% da altura, 1vh é 1% da altura 
+    vh pra height*/
+    background: yellow;
+    /* em é ralativo ao pai do elemento */
+}
+
+.pai > div {
+    width: 50%;
+    /* porcentagem é baseada no elemento pai do elemento que você tá setando. o filho se baseia no pai.
+    Eu pedi 50% de 50rem "500px" e fiquei com 250px "25rem" */
+    height: 50rem;
+    background: blue;
+
+}
+
+p {
+    font-size: 2vmax;
+    color: black
+}
+
+.color-one {
+    background: turquoise;
+}
+
+.color-two {
+    background: violet ;
+}
